@@ -1,0 +1,16 @@
+PODS:
+  - TakeSelfie (1.0.0)
+
+DEPENDENCIES:
+  - TakeSelfie (from `../TakeSelfie`)
+
+EXTERNAL SOURCES:
+  TakeSelfie:
+    :path: "../TakeSelfie"
+
+SPEC CHECKSUMS:
+  TakeSelfie: 55e3d3e82302019310bae2f78dc6a6fbc04afaeb
+
+PODFILE CHECKSUM: fea9d8c6bacaa8f6a2b4f2757689513019fe1667
+
+COCOAPODS: 1.10.0

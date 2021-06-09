@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066B13F17E924FD25D0844DCB5F85307 /* TakeSelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E14414029431113874CE12872F769 /* TakeSelfieViewController.swift */; };
+		1506217679FEE8CED136BA76EF20DE8D /* Pods-SampleAppExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C28654CCB23BCA6DC9EB948C83228F0 /* Pods-SampleAppExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150B0BDF393D41ECFEBC1DDF8E302267 /* Pods-SampleAppExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D64A246CEC3C8C04C04554B3B2749088 /* Pods-SampleAppExample-dummy.m */; };
+		7A522F1399285D1CB4B19D7270CCBD52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A4A36F07A093BD3C0D17B1E96FBC9E5 /* OvalOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DED625ADF08159715C29AEBDE5433D /* OvalOverlayView.swift */; };
+		C5CC202AA84B451A0C76213A34594278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA39671B1920D090C5A887F49B572BF9 /* TakeSelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660D1442B075B2077EB34B17515899B /* TakeSelfie-dummy.m */; };
+		FD021F64662C66CC9ADFCFB4289A0585 /* TakeSelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82649D0CE0F1D5F75A442DA5B9262C49 /* TakeSelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF518C4FD9361EAA35B3B7853B227C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB784A1EACB71ADC8282B2BDBED2109D;
+			remoteInfo = TakeSelfie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ECB3248C245CB70494653CDDD3A72B /* TakeSelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TakeSelfie.modulemap; sourceTree = "<group>"; };
+		0E36F90867114D401367AE923AACB40E /* Pods-SampleAppExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleAppExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FA6C89417CBA657A459AAC5FD866FD9 /* Pods-SampleAppExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppExample.release.xcconfig"; sourceTree = "<group>"; };
+		1C28654CCB23BCA6DC9EB948C83228F0 /* Pods-SampleAppExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleAppExample-umbrella.h"; sourceTree = "<group>"; };
+		263B34F377248715AF8B08F498EDCBF2 /* Pods-SampleAppExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAppExample-Info.plist"; sourceTree = "<group>"; };
+		3F15696A9D20E7ECE165235F0103E62A /* Pods-SampleAppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4EEF5782DBDB6B0A0B59B5A019C4CCB8 /* TakeSelfie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeSelfie-prefix.pch"; sourceTree = "<group>"; };
+		58DED625ADF08159715C29AEBDE5433D /* OvalOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OvalOverlayView.swift; sourceTree = "<group>"; };
+		6C6E14414029431113874CE12872F769 /* TakeSelfieViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakeSelfieViewController.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82649D0CE0F1D5F75A442DA5B9262C49 /* TakeSelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeSelfie-umbrella.h"; sourceTree = "<group>"; };
+		8660D1442B075B2077EB34B17515899B /* TakeSelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TakeSelfie-dummy.m"; sourceTree = "<group>"; };
+		9AA79A658D4594F890AC816B8A9FDDF9 /* Pods_SampleAppExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleAppExample.framework; path = "Pods-SampleAppExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC52DA93DCFB37079F480C0097B9D2C /* Pods-SampleAppExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleAppExample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABC968E73330C542CE33C61E3E5530A7 /* Pods-SampleAppExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAppExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC414BFFB5318364B3FD1604CA317F24 /* TakeSelfie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TakeSelfie-Info.plist"; sourceTree = "<group>"; };
+		C0D19DECC31E218FADB1E8A753AFAE54 /* TakeSelfie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TakeSelfie.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7A06F83CD3691E0A47F751E40C28E47 /* TakeSelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TakeSelfie.release.xcconfig; sourceTree = "<group>"; };
+		D64A246CEC3C8C04C04554B3B2749088 /* Pods-SampleAppExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleAppExample-dummy.m"; sourceTree = "<group>"; };
+		DFF99C37C003A3A72B94B69EE9A82BBA /* Pods-SampleAppExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAppExample-frameworks.sh"; sourceTree = "<group>"; };
+		EC89AB4DF8C34A813D0AD71871A120EB /* TakeSelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TakeSelfie.framework; path = TakeSelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76FF8BA7FDAA6D4A6F3423216125EB5 /* TakeSelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TakeSelfie.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428599BDD00D6357D8D28136C9137D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A522F1399285D1CB4B19D7270CCBD52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ADB5D9DA9570042BECCF53656DB187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CC202AA84B451A0C76213A34594278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02734B0C45C5031C636F4371285639E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E14414029431113874CE12872F769 /* TakeSelfieViewController.swift */,
+			);
+			name = Controller;
+			path = TakeSelfie/Controller;
+			sourceTree = "<group>";
+		};
+		0CE3301EF4FC8D1DA3787600C61841D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58DED625ADF08159715C29AEBDE5433D /* OvalOverlayView.swift */,
+			);
+			name = View;
+			path = TakeSelfie/View;
+			sourceTree = "<group>";
+		};
+		2AC9DE0F757877E68CFECA6DE338311E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B218657E7ECC93C0A4B52395B6DBABA /* Pods-SampleAppExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F0E4E5550C79328950C25B47D1AADC7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B66DE7426D0C8D3269BB95D3D54D8A5C /* TakeSelfie */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B218657E7ECC93C0A4B52395B6DBABA /* Pods-SampleAppExample */ = {
+			isa = PBXGroup;
+			children = (
+				9BC52DA93DCFB37079F480C0097B9D2C /* Pods-SampleAppExample.modulemap */,
+				0E36F90867114D401367AE923AACB40E /* Pods-SampleAppExample-acknowledgements.markdown */,
+				ABC968E73330C542CE33C61E3E5530A7 /* Pods-SampleAppExample-acknowledgements.plist */,
+				D64A246CEC3C8C04C04554B3B2749088 /* Pods-SampleAppExample-dummy.m */,
+				DFF99C37C003A3A72B94B69EE9A82BBA /* Pods-SampleAppExample-frameworks.sh */,
+				263B34F377248715AF8B08F498EDCBF2 /* Pods-SampleAppExample-Info.plist */,
+				1C28654CCB23BCA6DC9EB948C83228F0 /* Pods-SampleAppExample-umbrella.h */,
+				3F15696A9D20E7ECE165235F0103E62A /* Pods-SampleAppExample.debug.xcconfig */,
+				0FA6C89417CBA657A459AAC5FD866FD9 /* Pods-SampleAppExample.release.xcconfig */,
+			);
+			name = "Pods-SampleAppExample";
+			path = "Target Support Files/Pods-SampleAppExample";
+			sourceTree = "<group>";
+		};
+		91582E04E34BE31D277FA3673AA2313D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA79A658D4594F890AC816B8A9FDDF9 /* Pods_SampleAppExample.framework */,
+				EC89AB4DF8C34A813D0AD71871A120EB /* TakeSelfie.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66DE7426D0C8D3269BB95D3D54D8A5C /* TakeSelfie */ = {
+			isa = PBXGroup;
+			children = (
+				02734B0C45C5031C636F4371285639E9 /* Controller */,
+				CFCA4F8AEE790566899481D1D9182131 /* Pod */,
+				C700E56846FD451D8AD33AF937388D39 /* Support Files */,
+				0CE3301EF4FC8D1DA3787600C61841D3 /* View */,
+			);
+			name = TakeSelfie;
+			path = ../../TakeSelfie;
+			sourceTree = "<group>";
+		};
+		C700E56846FD451D8AD33AF937388D39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ECB3248C245CB70494653CDDD3A72B /* TakeSelfie.modulemap */,
+				8660D1442B075B2077EB34B17515899B /* TakeSelfie-dummy.m */,
+				AC414BFFB5318364B3FD1604CA317F24 /* TakeSelfie-Info.plist */,
+				4EEF5782DBDB6B0A0B59B5A019C4CCB8 /* TakeSelfie-prefix.pch */,
+				82649D0CE0F1D5F75A442DA5B9262C49 /* TakeSelfie-umbrella.h */,
+				F76FF8BA7FDAA6D4A6F3423216125EB5 /* TakeSelfie.debug.xcconfig */,
+				C7A06F83CD3691E0A47F751E40C28E47 /* TakeSelfie.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../SampleAppExample/Pods/Target Support Files/TakeSelfie";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3F0E4E5550C79328950C25B47D1AADC7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91582E04E34BE31D277FA3673AA2313D /* Products */,
+				2AC9DE0F757877E68CFECA6DE338311E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCA4F8AEE790566899481D1D9182131 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19DECC31E218FADB1E8A753AFAE54 /* TakeSelfie.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		312EB41D49CC699707DD8B37E56A9CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD021F64662C66CC9ADFCFB4289A0585 /* TakeSelfie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EC3FCD5CC02F53AF4DF8B1EAA273E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506217679FEE8CED136BA76EF20DE8D /* Pods-SampleAppExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BFE3B5F79B190D8366AF47C4DECCD04 /* Pods-SampleAppExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBE87AD399AA40C83792CAB72F07BE6 /* Build configuration list for PBXNativeTarget "Pods-SampleAppExample" */;
+			buildPhases = (
+				48EC3FCD5CC02F53AF4DF8B1EAA273E9 /* Headers */,
+				2DD498A7D3CA09439ABD306D78032EE4 /* Sources */,
+				428599BDD00D6357D8D28136C9137D04 /* Frameworks */,
+				3784A9EDE449F2E01AF524AD475D8F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02FE5AFE28A2AC6B36308A215B9DD05 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleAppExample";
+			productName = "Pods-SampleAppExample";
+			productReference = 9AA79A658D4594F890AC816B8A9FDDF9 /* Pods_SampleAppExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB784A1EACB71ADC8282B2BDBED2109D /* TakeSelfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E899805BDC4CCD54B798E7FEC33D7 /* Build configuration list for PBXNativeTarget "TakeSelfie" */;
+			buildPhases = (
+				312EB41D49CC699707DD8B37E56A9CD1 /* Headers */,
+				9A9C0B83C77C6583A76E3D77CC865FFB /* Sources */,
+				E0ADB5D9DA9570042BECCF53656DB187 /* Frameworks */,
+				BEFFE967F9F9FDC9B9A13E9359227C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeSelfie;
+			productName = TakeSelfie;
+			productReference = EC89AB4DF8C34A813D0AD71871A120EB /* TakeSelfie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 91582E04E34BE31D277FA3673AA2313D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BFE3B5F79B190D8366AF47C4DECCD04 /* Pods-SampleAppExample */,
+				CB784A1EACB71ADC8282B2BDBED2109D /* TakeSelfie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3784A9EDE449F2E01AF524AD475D8F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFFE967F9F9FDC9B9A13E9359227C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD498A7D3CA09439ABD306D78032EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B0BDF393D41ECFEBC1DDF8E302267 /* Pods-SampleAppExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9C0B83C77C6583A76E3D77CC865FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A36F07A093BD3C0D17B1E96FBC9E5 /* OvalOverlayView.swift in Sources */,
+				FA39671B1920D090C5A887F49B572BF9 /* TakeSelfie-dummy.m in Sources */,
+				066B13F17E924FD25D0844DCB5F85307 /* TakeSelfieViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02FE5AFE28A2AC6B36308A215B9DD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TakeSelfie;
+			target = CB784A1EACB71ADC8282B2BDBED2109D /* TakeSelfie */;
+			targetProxy = BF518C4FD9361EAA35B3B7853B227C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		124B510F6EE78E5FBEAA6E91C9AD4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F15696A9D20E7ECE165235F0103E62A /* Pods-SampleAppExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleAppExample/Pods-SampleAppExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleAppExample/Pods-SampleAppExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79B9B778DAD2CBA1FEA035DE2B0F89C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A06F83CD3691E0A47F751E40C28E47 /* TakeSelfie.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TakeSelfie/TakeSelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakeSelfie/TakeSelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TakeSelfie/TakeSelfie.modulemap";
+				PRODUCT_MODULE_NAME = TakeSelfie;
+				PRODUCT_NAME = TakeSelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B002FDBED25927088BFEC5AA9538CE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA6C89417CBA657A459AAC5FD866FD9 /* Pods-SampleAppExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleAppExample/Pods-SampleAppExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleAppExample/Pods-SampleAppExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DAEEECA31750E214988300A1931996FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76FF8BA7FDAA6D4A6F3423216125EB5 /* TakeSelfie.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TakeSelfie/TakeSelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakeSelfie/TakeSelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TakeSelfie/TakeSelfie.modulemap";
+				PRODUCT_MODULE_NAME = TakeSelfie;
+				PRODUCT_NAME = TakeSelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57E899805BDC4CCD54B798E7FEC33D7 /* Build configuration list for PBXNativeTarget "TakeSelfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEEECA31750E214988300A1931996FE /* Debug */,
+				79B9B778DAD2CBA1FEA035DE2B0F89C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBE87AD399AA40C83792CAB72F07BE6 /* Build configuration list for PBXNativeTarget "Pods-SampleAppExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124B510F6EE78E5FBEAA6E91C9AD4B59 /* Debug */,
+				B002FDBED25927088BFEC5AA9538CE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -54,7 +54,7 @@ In the viewController instantiate `TakeSelfieViewController` and present as moda
 You can also get the captured image using `captureImage` callback.
 ```swift
   selfieViewController.captureImage = { image in
-  /// caputred image can preview in imageview
+  /// captured image can preview in imageview
       imageView.image = image
   }
   
